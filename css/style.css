@@ -1,9 +1,14 @@
+/* style.css - Styles for the game canvas and body */
+
+/* Reset some default styles, the * makes this apply to every element */
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
+/* Body styles */
+/* Full viewport width and height, centered content */
 body {
 	width: 100vw;
 	height: 100vh;
@@ -13,8 +18,9 @@ body {
 	align-items: center;
 }
 
+/* Canvas display size (CSS) */
 #game-canvas {
-	width: 800px;
-	height: 600px;
-	border: solid 1px black;
+	width: 800px; /* display width */
+	height: 600px; /* display height */
+	border: solid 1px black; /* border for visibility */
 }

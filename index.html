@@ -1,17 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+	<!-- Start of the head tag. Stuff in here will not be visible on the page 
+    but is important for the browser to know how to render the page -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Cool Game</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
+		<!-- Title of the page, this shows up in the browser tab -->
+		<title>My Cool Game</title>
 
-<body>
-    <h1>My Cool Game!</h1>
-    <canvas id="game-canvas"></canvas>
-    <script src="scripts/app.js"></script>
-</body>
+		<!-- Link to the CSS file for styling -->
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<!-- End of the head tag -->
 
+	<!-- Start of the body tag, stuff in here will render to the page -->
+	<body>
+		<!-- Main title of the game displayed on the web page -->
+		<h1>My Cool Game!</h1>
+
+		<!-- The canvas is where your game will be drawn -->
+		<canvas id="game-canvas"></canvas>
+
+		<!-- Link to your JavaScript file -->
+		<script src="scripts/app.js"></script>
+	</body>
+	<!-- End of the body tag -->
 </html>
